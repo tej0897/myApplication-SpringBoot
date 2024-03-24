@@ -1,0 +1,6 @@
+Goals of Spring:
+
+    1. Lightweight development with Java POJOs.
+    2. Dependency injection to promote Loose Coupling
+    3. Minimize boilerplate Java Code.
+
