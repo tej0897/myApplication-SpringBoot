@@ -4,3 +4,29 @@ Goals of Spring:
     2. Dependency injection to promote Loose Coupling
     3. Minimize boilerplate Java Code.
 
+            *********
+
+What is Maven?
+    
+    1. It is a Project Management tool.
+    2. Used for Build management and handle dependencies.
+    3. JARs management.
+        When we are working on a project that uses Spring, Hibernate, Apache etc, without maven, we will have to manually go to individual websites and download the jar files and map them to the classes.
+
+        But, with the help of Maven, it will automatically download the jar files and make them available during compile / run.
+    4. It also helps in Building the application.
+
+            *********
+
+POM (Project Object Model) File Structure:
+
+    1. Project mets Data  
+        Project name, version, output file type(jar or war)
+    2. Dependencies
+    3. Plugins
+        generate JUnit test reports etc..
+
+            *********
+
+
+
