@@ -18,8 +18,8 @@ public class RestControllers {
         return "run 5k man!";
     }
 
-    @GetMapping("/testAPI")
+    @GetMapping("/fortune")
     public String testAPI(){
-        return "test success!!";
+        return "you will have a great day today!!";
     }
 }
