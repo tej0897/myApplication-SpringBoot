@@ -17,4 +17,9 @@ public class RestControllers {
     public String getWorkout(){
         return "run 5k man!";
     }
+
+    @GetMapping("/testAPI")
+    public String testAPI(){
+        return "test success!!";
+    }
 }
