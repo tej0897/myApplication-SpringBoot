@@ -28,5 +28,11 @@ POM (Project Object Model) File Structure:
 
             *********
 
+Application.properties file:
 
-
+    1. We can define properties in this file like server port etc.
+    2. We can define some values here and use them in code later. 
+        Example: application.properties
+                    user.name=Tejas Kumar
+                 in code:
+                    @Value("${user.name}")
