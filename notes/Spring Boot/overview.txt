@@ -36,3 +36,23 @@ Application.properties file:
                     user.name=Tejas Kumar
                  in code:
                     @Value("${user.name}")
+
+
+            *********
+
+Spring Boot Actuator:
+
+    Problems:
+        1. How to monitor and manage our application?
+        2. How to check application health?
+        3. How to access application metrics?
+
+    Solution:
+        use Spring Boot Actuator
+
+    No need to write extra code, just add dependency. We will get REST endpoints for free.
+
+    # use "*" to expose all the actuator endpoints
+    # individual endpoints can be exposed with a comma-delimited list
+
+            *********
