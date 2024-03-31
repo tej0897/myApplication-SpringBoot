@@ -56,3 +56,17 @@ Spring Boot Actuator:
     # individual endpoints can be exposed with a comma-delimited list
 
             *********
+
+Spring Security:
+
+    Problems:
+        1. When we use Spring actuator, many details like mappings, beans' details are exposed.
+
+        Solution:
+            use spring security
+
+        Spring security will add a layor of protection for few Actuator endpoints. An username and password will be generated which has to be used to access those endpoints.
+
+        We can change the username and password for spring security in application.properties file.
+
+        We can also disable certain endpoints like health, info in application.properties file.
