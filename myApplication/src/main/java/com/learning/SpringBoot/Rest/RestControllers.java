@@ -8,6 +8,21 @@ import org.springframework.web.bind.annotation.RestController;
 public class RestControllers {
 
 
+    // inject the values from application.properties here using @Value annotation
+
+    @Value("${coach.name}")
+    private String coachName;
+
+    @Value("${team.name}")
+    private String teamName;
+
+    // expose an endpoint for these team / coach values
+
+    @GetMapping("/teamData")
+    public String teamData(){
+        return "Coach Name: " +coachName + " and Team name is: " +teamName;
+    }
+
     @GetMapping("/")
     public String printHello(){
         return "Hello World!!";
